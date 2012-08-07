@@ -4,8 +4,8 @@ URN Plugin for CKAN
 This plugin automatically generates an ID from an URN source for a Resource data
 type. The default CKAN UUID ID for a Resource is hence replaced.
 
-INSTALLATION
-============
+Installation
+------------
 
 First of all, as with all CKAN extensions, one must install it to a either pyenv
 or a global python path, like this:
@@ -26,8 +26,8 @@ replaced with the URN.
 The URL supplied in this documentation refers to the NBN URN generator offered 
 by the National Library of Finland.
 
-TESTS
-=====
+Tests
+-----
 
 The included tests can be run using nose, but the test-core.ini has a path to
 CKAN which needs to be modified. Example of the path is the default one:
